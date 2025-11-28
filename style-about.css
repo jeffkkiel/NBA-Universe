@@ -17,6 +17,10 @@ body {
     max-width: 1200px;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 /* header */
 header {
     background: linear-gradient(135deg, #1d428a, #0a2a5a);
