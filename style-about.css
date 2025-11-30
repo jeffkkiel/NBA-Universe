@@ -101,19 +101,21 @@ nav a::after {
     bottom: -8px;
     transition: all 0.5s ease;
 }
-nav a:hover {
+nav a:hover, nav a.active {
     color: #ffc72c;
 }
-nav a:hover::after {
+nav a:hover::after, nav a.active::after {
     width: 100%;
 }
+
+
 /* hero section */
 .first-section{
     background: linear-gradient(
         to right,
         rgba(13, 37, 79, 0.95) 0%,
         rgba(13, 37, 79, 0.6)) 100%,
-            url(images/nba.1.png) no-repeat center/cover;
+            url(formal/nba.1.png) no-repeat center/cover;
     color: white;
     text-align: left;
     position: relative;
@@ -435,7 +437,7 @@ img{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #671c10, #ce9595); 
+    background: linear-gradient(135deg, #c58a8a, #ce9595); 
     display: flex;
     flex-direction: column;
     justify-content: center;
