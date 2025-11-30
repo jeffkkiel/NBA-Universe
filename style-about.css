@@ -11,11 +11,6 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-.container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
 
 /* hero section */
 .first-section{
