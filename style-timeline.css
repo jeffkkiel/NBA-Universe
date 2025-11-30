@@ -416,8 +416,11 @@ footer{
     text-align: center;
 }
 
-.footer-column a:hover {
+.footer-column a:hover, .footer-column a.active {
     color: #ffc72c;
+    transform: translateX(5px);
+}
+.footer-column a:hover::after, .footer-column a.active::after {
     transform: translateX(5px);
 }
 
