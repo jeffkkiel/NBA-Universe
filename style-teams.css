@@ -348,6 +348,7 @@ background: linear-gradient(to top, #1d428a, transparent);
     transition: all 0.3s ease;
     color: black;
     flex-shrink: 0;
+    text-decoration: none;
 }
 
 .social-links-teams a:hover {
