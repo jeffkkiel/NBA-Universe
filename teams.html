@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eastern Conference | NBA Universe</title>
+    <title>NBA teams | NBA Universe</title>
     <link rel="stylesheet" href="style-teams.css"/>
     <link rel="stylesheet" href="global.css"/>
     <script
@@ -135,18 +135,78 @@
       </div>
     </section>
     <main>
-    <div class="aquamarine-box">
+    <div class="white-box">
       <div class="container">
         <div class="team-list">
           <!-- Atlanta Hawks -->
-          <div class="team-entry-container" data-team="atlanta-hawks" data-conference="east" data-division="southeast">
+          <div class="team-entry-container" style="--team-color:#ff9999" data-team="atlanta-hawks" data-conference="east" data-division="southeast">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/atlanta-hawks.svg" class="team-logo">
               </div>
               <div class="team-info">
                 <h2>Atlanta Hawks</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="quick-stats-wrapper">
+                  <ul class="quick-stats">
+                    <li><i class="fas fa-trophy"></i> 1 Title</li>
+                    <li><i class="fas fa-star"></i> Trae Young</li>
+                    <li><i class="fas fa-calendar"></i>Est. 1946</li>
+                    <li><i class="fas fa-location-dot"></i>State Farm Arena</li>
+                    <li><i class="fas fa-compass"></i>Southest Division</li>
+                  </ul>
+                </div>
+                  <table class="nba-stat-row">
+                    <thead>
+                      <tr>
+                        <th>PPG</th>
+                        <th>APG</th>
+                        <th>RPG</th>
+                        <th>SPG</th>
+                        <th>BPG</th>
+                        <th>FGM</th>
+                        <th>FG%</th>
+                        <th>3P%</th>
+                        <th>TOV</th>
+                        <th>+/-</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>117.8</td>
+                        <td>30.8</td>
+                        <td>41.2</td>
+                        <td>9.3</td>
+                        <td>5.5</td>
+                        <td>43.3</td>
+                        <td>48.9%</td>
+                        <td>37.2%</td>
+                        <td>14.9</td>
+                        <td>+2.1</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Ut bibendum magna massa, vitae pharetra sem aliquam eu. 
+                  Ut erat nibh, egestas in porttitor ut, pharetra a enim. 
+                  Pellentesque eu tellus odio. Morbi molestie tempor porta. 
+                  Donec et euismod orci. Integer vestibulum ornare metus eget porta. 
+                  Sed porttitor gravida ipsum et commodo. 
+                  Nam eget tempus libero, sed lobortis magna. 
+                  Fusce magna purus, auctor a pretium et, auctor sed lacus. 
+                  Ut augue justo, ultricies nec lobortis at, pharetra quis sem.
+                  Nulla ac faucibus nisi, eu placerat turpis. 
+                  Vestibulum fermentum porta nulla, feugiat faucibus elit aliquam vitae. 
+                  Aenean commodo est et hendrerit sodales. 
+                  Etiam varius nunc in ullamcorper vehicula. 
+                  Morbi vulputate scelerisque erat non pulvinar. 
+                  Etiam scelerisque quam risus, sit amet placerat velit tincidunt et. 
+                  Morbi sit amet neque elit. Proin feugiat velit in fringilla egestas. 
+                  Nam tincidunt, ex in tempor hendrerit, justo tortor pulvinar leo,
+                   nec mattis lorem sem a leo. 
+                   Pellentesque nec lacus ac eros finibus gravida vel aliquam nibh. 
+                   Vestibulum vitae nulla felis. 
+                   Nam sapien neque, aliquam gravida rutrum nec, condimentum et tellus. 
+                   Quisque convallis aliquet est, eu semper leo venenatis eget.</p>
                 <div class="social-links-teams">
                   <a href="https://www.facebook.com/AtlantaHawks" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                   <a href="https://twitter.com/ATLHawks" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-x"></i></a>
@@ -158,7 +218,7 @@
           </div>
 
           <!-- Boston Celtics -->
-          <div class="team-entry-container" data-team="boston-celtics" data-conference="east" data-division="atlantic">
+          <div class="team-entry-container" style="--team-color:#00f487" data-team="boston-celtics" data-conference="east" data-division="atlantic">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/boston-celtics.svg" class="team-logo">
@@ -177,7 +237,7 @@
           </div>
 
           <!-- Brooklyn Nets -->
-          <div class="team-entry-container" data-team="brooklyn-nets" data-conference="east" data-division="atlantic">
+          <div class="team-entry-container" style="--team-color:#b3b3b3" data-team="brooklyn-nets" data-conference="east" data-division="atlantic">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/brooklyn-nets.svg" class="team-logo">
@@ -196,7 +256,7 @@
           </div>
 
           <!-- Charlotte Hornets -->
-          <div class="team-entry-container" data-team="charlotte-hornets" data-conference="east" data-division="southeast">
+          <div class="team-entry-container" style="--team-color:#39ffd8" data-team="charlotte-hornets" data-conference="east" data-division="southeast">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/charlotte-hornets.svg" class="team-logo">
@@ -215,7 +275,7 @@
           </div>
 
           <!-- Chicago Bulls -->
-          <div class="team-entry-container" data-team="chicago-bulls" data-conference="east" data-division="central">
+          <div class="team-entry-container" style="--team-color:#ff6666" data-team="chicago-bulls" data-conference="east" data-division="central">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/chicago-bulls.svg" class="team-logo">
@@ -234,7 +294,7 @@
           </div>
 
           <!-- Cleveland Cavaliers -->
-          <div class="team-entry-container" data-team="cleveland-cavaliers" data-conference="east" data-division="central">
+          <div class="team-entry-container" style="--team-color:#983151" data-team="cleveland-cavaliers" data-conference="east" data-division="central">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/cleveland-cavaliers.svg" class="team-logo">
@@ -253,7 +313,7 @@
           </div>
 
           <!-- Dallas Mavericks -->
-          <div class="team-entry-container" data-team="dallas-mavericks" data-conference="west" data-division="southwest">
+          <div class="team-entry-container" style="--team-color:#66b5ff" data-team="dallas-mavericks" data-conference="west" data-division="southwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/dallas-mavericks.svg" class="team-logo">
@@ -272,7 +332,7 @@
           </div>
 
           <!-- Denver Nuggets -->
-          <div class="team-entry-container" data-team="denver-nuggets" data-conference="west" data-division="northwest">
+          <div class="team-entry-container" style="--team-color:#ccb41f" data-team="denver-nuggets" data-conference="west" data-division="northwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/denver-nuggets.svg" class="team-logo">
@@ -291,7 +351,7 @@
           </div>
 
           <!-- Detroit Pistons -->
-          <div class="team-entry-container" data-team="detroit-pistons" data-conference="east" data-division="central">
+          <div class="team-entry-container" style="--team-color:#ee1336" data-team="detroit-pistons" data-conference="east" data-division="central">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/detroit-pistons.svg" class="team-logo">
@@ -310,7 +370,7 @@
           </div>
 
           <!-- Golden State Warriors -->
-          <div class="team-entry-container" data-team="golden-state-warriors" data-conference="west" data-division="pacific">
+          <div class="team-entry-container" style="--team-color:#ffc827" data-team="golden-state-warriors" data-conference="west" data-division="pacific">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/golden-state-warriors.svg" class="team-logo">
@@ -329,7 +389,7 @@
           </div>
 
           <!-- Houston Rockets -->
-          <div class="team-entry-container" data-team="houston-rockets" data-conference="west" data-division="southwest">
+          <div class="team-entry-container" style="--team-color:#ff7373" data-team="houston-rockets" data-conference="west" data-division="southwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/houston-rockets.svg" class="team-logo">
@@ -348,7 +408,7 @@
           </div>
 
           <!-- Indiana Pacers -->
-          <div class="team-entry-container" data-team="indiana-pacers" data-conference="east" data-division="central">
+          <div class="team-entry-container" style="--team-color:#ffe96c" data-team="indiana-pacers" data-conference="east" data-division="central">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/indiana-pacers.svg" class="team-logo">
@@ -367,7 +427,7 @@
           </div>
 
           <!-- LA Clippers -->
-          <div class="team-entry-container" data-team="la-clippers" data-conference="west" data-division="pacific">
+          <div class="team-entry-container" style="--team-color:#154a8c" data-team="la-clippers" data-conference="west" data-division="pacific">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/los-angeles-clippers.svg" class="team-logo">
@@ -386,7 +446,7 @@
           </div>
 
           <!-- Los Angeles Lakers -->
-          <div class="team-entry-container" data-team="los-angeles-lakers" data-conference="west" data-division="pacific">
+          <div class="team-entry-container" style="--team-color:#5200bb" data-team="los-angeles-lakers" data-conference="west" data-division="pacific">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/los-angeles-lakers.svg" class="team-logo">
@@ -405,7 +465,7 @@
           </div>
 
           <!-- Memphis Grizzlies -->
-          <div class="team-entry-container" data-team="memphis-grizzlies" data-conference="west" data-division="southwest">
+          <div class="team-entry-container" style="--team-color:#8db4ff" data-team="memphis-grizzlies" data-conference="west" data-division="southwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/memphis-grizzlies.svg" class="team-logo">
@@ -424,7 +484,7 @@
           </div>
 
           <!-- Miami Heat -->
-          <div class="team-entry-container" data-team="miami-heat" data-conference="east" data-division="southeast">
+          <div class="team-entry-container" style="--team-color:#ffb31b" data-team="miami-heat" data-conference="east" data-division="southeast">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/miami-heat.svg" class="team-logo">
@@ -443,7 +503,7 @@
           </div>
 
           <!-- Milwaukee Bucks -->
-          <div class="team-entry-container" data-team="milwaukee-bucks" data-conference="east" data-division="central">
+          <div class="team-entry-container" style="--team-color:#3affa8" data-team="milwaukee-bucks" data-conference="east" data-division="central">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/milwaukee-bucks.svg" class="team-logo">
@@ -462,7 +522,7 @@
           </div>
 
           <!-- Minnesota Timberwolves -->
-          <div class="team-entry-container" data-team="minnesota-timberwolves" data-conference="west" data-division="northwest">
+          <div class="team-entry-container" style="--team-color:#7cb8ff" data-team="minnesota-timberwolves" data-conference="west" data-division="northwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/minnesota-timberwolves.svg" class="team-logo">
@@ -481,7 +541,7 @@
           </div>
 
           <!-- New Orleans Pelicans -->
-          <div class="team-entry-container" data-team="new-orleans-pelicans" data-conference="west" data-division="southwest">
+          <div class="team-entry-container" style="--team-color:#e8c08f" data-team="new-orleans-pelicans" data-conference="west" data-division="southwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/new-orleans-pelicans.svg" class="team-logo">
@@ -500,7 +560,7 @@
           </div>
 
           <!-- New York Knicks -->
-          <div class="team-entry-container" data-team="new-york-knicks" data-conference="east" data-division="atlantic">
+          <div class="team-entry-container" style="--team-color:#ffc27a" data-team="new-york-knicks" data-conference="east" data-division="atlantic">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/new-york-knicks.svg" class="team-logo">
@@ -519,7 +579,7 @@
           </div>
 
           <!-- Oklahoma City Thunder -->
-          <div class="team-entry-container" data-team="oklahoma-city-thunder" data-conference="west" data-division="northwest">
+          <div class="team-entry-container" style="--team-color:#6edcff" data-team="oklahoma-city-thunder" data-conference="west" data-division="northwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/oklahoma-city-thunder.svg" class="team-logo">
@@ -538,7 +598,7 @@
           </div>
 
           <!-- Orlando Magic -->
-          <div class="team-entry-container" data-team="orlando-magic" data-conference="east" data-division="southeast">
+          <div class="team-entry-container" style="--team-color:#7bb9ff" data-team="orlando-magic" data-conference="east" data-division="southeast">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/orlando-magic.svg" class="team-logo">
@@ -557,7 +617,7 @@
           </div>
 
           <!-- Philadelphia 76ers -->
-          <div class="team-entry-container" data-team="philadelphia-76ers" data-conference="east" data-division="atlantic">
+          <div class="team-entry-container" style="--team-color:#9db8ff" data-team="philadelphia-76ers" data-conference="east" data-division="atlantic">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/philadelphia-76ers.svg" class="team-logo">
@@ -576,7 +636,7 @@
           </div>
 
           <!-- Phoenix Suns -->
-          <div class="team-entry-container" data-team="phoenix-suns" data-conference="west" data-division="pacific">
+          <div class="team-entry-container" style="--team-color:#ffbe7a" data-team="phoenix-suns" data-conference="west" data-division="pacific">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/phoenix-suns.svg" class="team-logo">
@@ -595,7 +655,7 @@
           </div>
 
           <!-- Portland Trail Blazers -->
-          <div class="team-entry-container" data-team="portland-trail-blazers" data-conference="west" data-division="northwest">
+          <div class="team-entry-container" style="--team-color:#ff0c36" data-team="portland-trail-blazers" data-conference="west" data-division="northwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/portland-trail-blazers.svg" class="team-logo">
@@ -614,7 +674,7 @@
           </div>
 
           <!-- Sacramento Kings -->
-          <div class="team-entry-container" data-team="sacramento-kings" data-conference="west" data-division="pacific">
+          <div class="team-entry-container" style="--team-color:#ceb0ff" data-team="sacramento-kings" data-conference="west" data-division="pacific">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/sacramento-kings.svg" class="team-logo">
@@ -633,7 +693,7 @@
           </div>
 
           <!-- San Antonio Spurs -->
-          <div class="team-entry-container" data-team="san-antonio-spurs" data-conference="west" data-division="southwest">
+          <div class="team-entry-container" style="--team-color:#cfcfcf" data-team="san-antonio-spurs" data-conference="west" data-division="southwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/san-antonio-spurs.svg" class="team-logo">
@@ -652,7 +712,7 @@
           </div>
 
           <!-- Toronto Raptors -->
-          <div class="team-entry-container" data-team="toronto-raptors" data-conference="east" data-division="atlantic">
+          <div class="team-entry-container" style="--team-color:#ff8fa8" data-team="toronto-raptors" data-conference="east" data-division="atlantic">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/toronto-raptors.svg" class="team-logo">
@@ -671,7 +731,7 @@
           </div>
 
           <!-- Utah Jazz -->
-          <div class="team-entry-container" data-team="utah-jazz" data-conference="west" data-division="northwest">
+          <div class="team-entry-container" style="--team-color:#920dff" data-team="utah-jazz" data-conference="west" data-division="northwest">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/utah-jazz.svg" class="team-logo">
@@ -690,7 +750,7 @@
           </div>
 
           <!-- Washington Wizards -->
-          <div class="team-entry-container" data-team="washington-wizards" data-conference="east" data-division="southeast">
+          <div class="team-entry-container" style="--team-color:#afc3ff" data-team="washington-wizards" data-conference="east" data-division="southeast">
             <div class="team-entry">
               <div class="team-logo-wrapper">
                 <img src="https://i.logocdn.com/nba/current/washington-wizards.svg" class="team-logo">

@@ -28,7 +28,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, aquamarine, transparent);
+    background: linear-gradient(to top, white, transparent);
     pointer-events: none;
     z-index: 1;
 }
@@ -205,10 +205,10 @@
     from { transform: translateX(-50%); }
     to { transform: translateX(0); }
 }
- /* background */
 
+ /* background */
 body{
-    background-color: white;
+    background-color: aquamarine;
 }
 .side-logo {
     position: fixed;
@@ -264,14 +264,14 @@ background: linear-gradient(to top, #1d428a, transparent);
 }
 
 /* main section */
-.aquamarine-box {
-    background: aquamarine;
+.white-box {
+    background: white;
     max-width: 1200px;
     margin: 0 100px;
     padding: 40px 0;
 }
-.aquamarine-box .container {
-    background-color: aquamarine;
+.white-box .container {
+    background-color: white;
     margin: 0 auto;
 }
 /* Team detailed descriptions */
@@ -282,11 +282,11 @@ background: linear-gradient(to top, #1d428a, transparent);
 }
 
 .team-entry-container {
-    background: rgb(81, 178, 243);
+    background: linear-gradient(to bottom right, #fafbff 0%, #cddeff 100%);
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(63, 120, 167, 0.1);
-    border: 2px solid #db5050;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border: 2px solid var(--team-color);
 }
 .team-entry {
     display: flex;
@@ -297,7 +297,7 @@ background: linear-gradient(to top, #1d428a, transparent);
 .team-logo-wrapper {
     width: 200px;
     height: 200px;
-    background: rgb(219, 80, 80);
+    background: var(--team-color);
     padding: 10px;
     border-radius: 25%;
     box-shadow: -10px 10px 0px rgba(0,0,0,0.15);
@@ -326,6 +326,7 @@ background: linear-gradient(to top, #1d428a, transparent);
     opacity: 0.85;
 }
 
+/* Social media links */
 .social-links-teams {
     display: flex;
     gap: 15px;
@@ -341,10 +342,10 @@ background: linear-gradient(to top, #1d428a, transparent);
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: #333;
+    background-color: var(--team-color);
     border-radius: 50%;
     transition: all 0.3s ease;
-    color: white;
+    color: black;
     flex-shrink: 0;
 }
 
@@ -354,4 +355,70 @@ background: linear-gradient(to top, #1d428a, transparent);
 }
 .social-links a:active {
     transform: translateY(-3px) scale(0.95);
+}
+
+/* Quick stats */
+
+
+.quick-stats {
+    list-style: none;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    border-top: 1px solid var(--team-color);
+}
+
+.quick-stats-wrapper {
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.quick-stats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.quick-stats li {
+    font-size: 0.75rem;
+    background: var(--team-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+}
+
+/* Team stats */
+.nba-stat-row {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.nba-stat-row thead {
+    background: var(--team-color);
+    color: white;
+}
+
+.nba-stat-row th,
+.nba-stat-row td {
+    padding: 6px 10px;
+    white-space: nowrap;
+}
+
+.nba-stat-row tbody tr {
+    background: rgba(0,0,0,0.04);
+}
+
+.nba-stat-row tbody tr:hover {
+    background: rgba(0,0,0,0.08);
 }
