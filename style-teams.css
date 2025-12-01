@@ -281,20 +281,36 @@ background: linear-gradient(to top, #1d428a, transparent);
     gap: 50px;
 }
 
+.team-entry-container {
+    background: rgb(81, 178, 243);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(63, 120, 167, 0.1);
+    border: 2px solid #db5050;
+}
 .team-entry {
     display: flex;
     align-items: flex-start;
     gap: 25px;
 }
 
-.team-logo {
+.team-logo-wrapper {
     width: 200px;
     height: 200px;
-    object-fit: contain;
     background: rgb(219, 80, 80);
     padding: 10px;
     border-radius: 25%;
-    box-shadow: 0 10px 12px rgba(0,0,0,0.15);
+    box-shadow: -10px 10px 0px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(-4px 4px 0px rgba(0, 0, 0, 0.35));
 }
 
 .team-info h2 {
@@ -304,8 +320,38 @@ background: linear-gradient(to top, #1d428a, transparent);
 }
 
 .team-info p {
-    font-size: 18px;
+    font-size: 15px;
     max-width: 700px;
     line-height: 1.5;
     opacity: 0.85;
+}
+
+.social-links-teams {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.social-links-teams a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    color: white;
+    flex-shrink: 0;
+}
+
+.social-links-teams a:hover {
+    background-color: #1d428a;
+    transform: translateY(-5px);
+}
+.social-links a:active {
+    transform: translateY(-3px) scale(0.95);
 }
