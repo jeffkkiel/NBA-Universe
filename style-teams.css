@@ -324,6 +324,7 @@ background: linear-gradient(to top, #1d428a, transparent);
     max-width: 700px;
     line-height: 1.5;
     opacity: 0.85;
+    margin-top: 20px;
 }
 
 /* Social media links */
@@ -406,7 +407,7 @@ background: linear-gradient(to top, #1d428a, transparent);
 
 .nba-stat-row thead {
     background: var(--team-color);
-    color: white;
+    color: black;
 }
 
 .nba-stat-row th,
@@ -417,8 +418,4 @@ background: linear-gradient(to top, #1d428a, transparent);
 
 .nba-stat-row tbody tr {
     background: rgba(0,0,0,0.04);
-}
-
-.nba-stat-row tbody tr:hover {
-    background: rgba(0,0,0,0.08);
 }
