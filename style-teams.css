@@ -282,7 +282,7 @@ background: linear-gradient(to top, #1d428a, transparent);
         linear-gradient(45deg, transparent 75%, #f5f7fa 75%),
         linear-gradient(-45deg, transparent 75%, #f5f7fa 75%);;
     max-width: 1200px;
-    margin: 0 100px;
+    margin: 0 auto;
     padding: 40px 0;
 }
 .white-box .container {
