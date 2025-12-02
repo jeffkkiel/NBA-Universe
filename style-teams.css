@@ -5,6 +5,7 @@
     background: linear-gradient(135deg, #1d428a 0%, #0a2a5a 100%);
     position: relative;
     overflow: hidden;
+    padding-bottom: 25px;
 }
 
 
