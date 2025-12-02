@@ -284,6 +284,7 @@ background: linear-gradient(to top, #1d428a, transparent);
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 0;
+    justify-content: center;
 }
 .white-box .container {
     background: 
