@@ -288,6 +288,7 @@ img{
 .creator-title {
     text-align: center;
     margin-top: 0px;
+    position: relative;
 }
 
 .creator-title h1{
@@ -296,6 +297,7 @@ img{
     display: inline-block;
     padding-bottom: 14px;
     font-weight: 800;
+    position: relative;
 }
 .creator-title h1::after {
     content: "";
@@ -303,7 +305,7 @@ img{
     width: 100px;
     height: 5px;
     background: linear-gradient(90deg, #1d428a, #c8102e);
-    bottom: -1630px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -404,7 +406,3 @@ img{
 .social-creator a:active {
     transform: translateY(-3px) scale(0.95);
 }
-
-
-
-
