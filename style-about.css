@@ -175,6 +175,7 @@ background: linear-gradient(to top, #f5f7fa, transparent);
 .mission-title {
     text-align: center;
     margin-top: 50px;
+    position: relative;
 }
 
 .mission-title .mission-h1{
@@ -190,7 +191,7 @@ background: linear-gradient(to top, #f5f7fa, transparent);
     width: 100px;
     height: 5px;
     background: linear-gradient(90deg, #c8102e, #ffc72c);
-    bottom: -950px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -286,6 +287,7 @@ img{
 .creator-title {
     text-align: center;
     margin-top: 0px;
+    position: relative;
 }
 
 .creator-title h1{
@@ -301,7 +303,7 @@ img{
     width: 100px;
     height: 5px;
     background: linear-gradient(90deg, #1d428a, #c8102e);
-    bottom: -1630px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -402,5 +404,6 @@ img{
 .social-creator a:active {
     transform: translateY(-3px) scale(0.95);
 }
+
 
 
