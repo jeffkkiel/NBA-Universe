@@ -175,7 +175,6 @@ background: linear-gradient(to top, #f5f7fa, transparent);
 .mission-title {
     text-align: center;
     margin-top: 50px;
-    position: relative;
 }
 
 .mission-title .mission-h1{
@@ -184,7 +183,6 @@ background: linear-gradient(to top, #f5f7fa, transparent);
     display: inline-block;
     padding-bottom: 14px;
     font-weight: 800;
-    position: relative;
 }
 .mission-title .mission-h1::after {
     content: "";
@@ -192,7 +190,7 @@ background: linear-gradient(to top, #f5f7fa, transparent);
     width: 100px;
     height: 5px;
     background: linear-gradient(90deg, #c8102e, #ffc72c);
-    bottom: 0;
+    bottom: -950px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -288,7 +286,6 @@ img{
 .creator-title {
     text-align: center;
     margin-top: 0px;
-    position: relative;
 }
 
 .creator-title h1{
@@ -297,7 +294,6 @@ img{
     display: inline-block;
     padding-bottom: 14px;
     font-weight: 800;
-    position: relative;
 }
 .creator-title h1::after {
     content: "";
@@ -305,7 +301,7 @@ img{
     width: 100px;
     height: 5px;
     background: linear-gradient(90deg, #1d428a, #c8102e);
-    bottom: 0;
+    bottom: -1630px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -327,7 +323,6 @@ img{
     margin-bottom: 60px;
     overflow: hidden;
     width: 100%;
-    position: relative;
 }
 
 .creator-content-2{
@@ -356,7 +351,6 @@ img{
     opacity: 0;
     transition: opacity 0.5s ease;
     border-radius: 15px;
-    position: relative;
 }
 
 .creator-2-text h2 {
@@ -364,7 +358,6 @@ img{
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 800;
-    position: relative;
 }
 
 .creator-2-text p {
@@ -372,7 +365,6 @@ img{
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
-    position: relative;
 }
 
 .image:hover .creator-2-text {
@@ -410,3 +402,5 @@ img{
 .social-creator a:active {
     transform: translateY(-3px) scale(0.95);
 }
+
+
