@@ -184,6 +184,7 @@ background: linear-gradient(to top, #f5f7fa, transparent);
     display: inline-block;
     padding-bottom: 14px;
     font-weight: 800;
+    position: relative;
 }
 .mission-title .mission-h1::after {
     content: "";
@@ -296,6 +297,7 @@ img{
     display: inline-block;
     padding-bottom: 14px;
     font-weight: 800;
+    position: relative;
 }
 .creator-title h1::after {
     content: "";
@@ -404,6 +406,7 @@ img{
 .social-creator a:active {
     transform: translateY(-3px) scale(0.95);
 }
+
 
 
 
