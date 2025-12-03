@@ -214,3 +214,26 @@ footer{
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
+
+/* Dvivider */
+/* Divider */
+.decade-divider {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0 40px 0;
+    position: relative;
+    clear: both;
+}
+
+.decade-divider h3 {
+    display: inline-block;
+    background: linear-gradient(135deg, #1d428a, #c8102e);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+}
