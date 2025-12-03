@@ -88,6 +88,10 @@ left: 100%;
     transform: translateY(5px);
 }
 
+.btn + .btn {
+    margin-left: 20px;
+}
+
 /* conference */
 .conference{
     padding: 8px 0;
@@ -383,6 +387,7 @@ left: 100%;
     font-size: 15px;
     opacity: 0.14px;
 }
+
 
 
 
