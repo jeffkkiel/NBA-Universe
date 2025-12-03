@@ -17,14 +17,16 @@ body {
 .first-section{
     text-align: center;
     margin-top: 50px;
+    position: relative;
 }
 
 .first-section h1{
     font-size: 48px;
     color: #1d428a;
     display: inline-block;
-    padding-bottom: 14px;
+    padding-bottom: 10px;
     font-weight: 800;
+    position: relative;
 }
 .first-section h1::after {
     content: "";
@@ -32,7 +34,7 @@ body {
     width: 100px;
     height: 5px;
     background: linear-gradient(90deg, #1d428a, #c8102e);
-    bottom: 540px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -241,3 +243,4 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
 }
+
