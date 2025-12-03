@@ -327,6 +327,7 @@ img{
     margin-bottom: 60px;
     overflow: hidden;
     width: 100%;
+    position: relative;
 }
 
 .creator-content-2{
@@ -355,6 +356,7 @@ img{
     opacity: 0;
     transition: opacity 0.5s ease;
     border-radius: 15px;
+    position: relative;
 }
 
 .creator-2-text h2 {
@@ -362,6 +364,7 @@ img{
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 800;
+    position: relative;
 }
 
 .creator-2-text p {
@@ -369,6 +372,7 @@ img{
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    position: relative;
 }
 
 .image:hover .creator-2-text {
@@ -406,3 +410,4 @@ img{
 .social-creator a:active {
     transform: translateY(-3px) scale(0.95);
 }
+
