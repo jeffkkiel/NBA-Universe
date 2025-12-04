@@ -155,3 +155,36 @@ body {
     color: white;
 }
 
+/* Ordered Lists */
+.dynasties-list,
+.finals-list,
+.coaches-list {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 40px;
+    font-size: 1.2rem;
+    line-height: 2.5;
+    color: #212529;
+    background: white;
+    border-radius: 10px;
+    padding: 30px 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dynasties-list li,
+.finals-list li,
+.coaches-list li {
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(29, 66, 138, 0.2);
+    transition: all 0.3s ease;
+}
+
+.dynasties-list li:hover,
+.finals-list li:hover,
+.coaches-list li:hover {
+    padding-left: 20px;
+    border-bottom: 2px solid #1d428a;
+    color: #c8102e;
+    background: linear-gradient(90deg, rgba(29, 66, 138, 0.05), transparent);
+}
+
