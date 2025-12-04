@@ -156,35 +156,42 @@ body {
 }
 
 /* Ordered Lists */
-.dynasties-list,
-.finals-list,
-.coaches-list {
+ol.dynasties-list,
+ol.finals-list,
+ol.coaches-list {
     max-width: 700px;
-    margin: 40px auto;
-    padding: 0 40px;
-    font-size: 1.2rem;
-    line-height: 2.5;
+    margin: 40px auto !important;
+    padding: 30px 50px !important;
+    font-size: 18px;
+    line-height: 2;
     color: #212529;
     background: white;
     border-radius: 10px;
-    padding: 30px 50px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    list-style-position: inside;
 }
 
-.dynasties-list li,
-.finals-list li,
-.coaches-list li {
-    padding: 15px 10px;
+ol.dynasties-list li,
+ol.finals-list li,
+ol.coaches-list li {
+    padding: 15px 10px !important;
     border-bottom: 1px solid rgba(29, 66, 138, 0.2);
     transition: all 0.3s ease;
+    margin: 0 !important;
 }
 
-.dynasties-list li:hover,
-.finals-list li:hover,
-.coaches-list li:hover {
-    padding-left: 20px;
-    border-bottom: 2px solid #1d428a;
+ol.dynasties-list li:last-child,
+ol.finals-list li:last-child,
+ol.coaches-list li:last-child {
+    border-bottom: none;
+}
+
+ol.dynasties-list li:hover,
+ol.finals-list li:hover,
+ol.coaches-list li:hover {
+    padding-left: 25px !important;
+    border-left: 4px solid #1d428a;
     color: #c8102e;
-    background: linear-gradient(90deg, rgba(29, 66, 138, 0.05), transparent);
+    background: linear-gradient(90deg, rgba(29, 66, 138, 0.08), transparent);
+    font-weight: 600;
 }
-
