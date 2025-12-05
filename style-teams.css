@@ -1,3 +1,6 @@
+html{
+    scroll-padding-top: 100px;
+}
 /* carousel */
 .carousel {
     margin: 0;
@@ -227,7 +230,7 @@ body{
 .side-logo {
     position: fixed;
     top: 100px;
-    width: 300px;
+    width: 50vh;
     opacity: 0.75;
     z-index: -1;
 }
@@ -285,13 +288,13 @@ background: linear-gradient(to top, #1d428a, transparent);
     justify-content: center;
 }
 .white-box .container {
-    background: 
-    linear-gradient(135deg, rgba(29, 66, 138, 0.02) 0%, transparent 100%),
+    background: transparent;
+    /* linear-gradient(135deg, rgba(29, 66, 138, 0.02) 0%, transparent 100%),
     linear-gradient(45deg, #f5f7fa 25%, transparent 25%),
     linear-gradient(-45deg, #f5f7fa 25%, transparent 25%),
     linear-gradient(45deg, transparent 75%, #f5f7fa 75%),
     linear-gradient(-45deg, transparent 75%, #f5f7fa 75%);
-    background-color: white;
+    background-color: white; */
     margin: 0 auto;
 }
 /* Team detailed descriptions */
