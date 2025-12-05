@@ -153,6 +153,9 @@
     overflow: hidden;
 }
 
+.card a{
+    scroll-margin: 20px;
+}
 
 .card::before {
     content: "";
