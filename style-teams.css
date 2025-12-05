@@ -151,7 +151,6 @@
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
-    scroll-margin: 20px;
 }
 
 
@@ -191,6 +190,7 @@
     object-fit: contain;
     filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
     transition: all 0.4s ease;
+    scroll-margin: 20px;
 }
 
 
