@@ -229,18 +229,18 @@ body{
 
 .side-logo {
     position: fixed;
-    top: 100px;
-    width: 50vh;
+    top: 10vmin;
+    width: 50vmin;
     opacity: 0.75;
     z-index: -1;
 }
 
 .left-logo {
-    left: -150px
+    left: -25dvh;
 }
 
 .right-logo {
-    right: -150px
+    right: -25dvh;
 }
 
 /* first section */
