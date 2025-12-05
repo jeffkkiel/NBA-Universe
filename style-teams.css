@@ -329,6 +329,12 @@ background: linear-gradient(to top, #1d428a, transparent);
     justify-content: center;
 }
 
+.team-logo-wrapper:hover {
+    transform: translateY(-15px) scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: -15px 15px 0px rgba(0,0,0,0.15);
+}
+
 .team-logo {
     width: 100%;
     height: 100%;
@@ -420,6 +426,10 @@ background: linear-gradient(to top, #1d428a, transparent);
     font-weight: 600;
 }
 
+.quick-stats li:hover {
+    transform: scale(1.1);
+}
+
 /* Team stats */
 .nba-stat-row {
     width: 100%;
@@ -442,4 +452,9 @@ background: linear-gradient(to top, #1d428a, transparent);
 
 .nba-stat-row tbody tr {
     background: rgba(0,0,0,0.04);
+}
+
+.nba-stat-row td:hover {
+  background-color: #dcefff;
+  transform: scale(1.1);
 }
