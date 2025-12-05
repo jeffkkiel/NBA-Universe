@@ -151,11 +151,11 @@
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
-}
-
-.card a{
     scroll-margin: 20px;
 }
+
+
+
 
 .card::before {
     content: "";
